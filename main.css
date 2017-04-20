@@ -15,6 +15,7 @@ p {
 
 a:link {
   font-size: 16px;
+  text-decoration: none;
   text-emphasis: none;
   margin: 0;
   padding: 0;
@@ -136,4 +137,23 @@ ul, ol {
 #nav-search-wrapper form input:-moz-placeholder {
   color: #aaa;
   font-size: 14px;
+}
+
+.top-nav ul {
+  float: right;
+  padding: 17px 0;
+}
+
+.top-nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.top-nav ul li a:link {
+  color: #484848;
+  font-size: 14px;
+}
+
+.top-nav ul li a:visited {
+  color: #484848;
 }
