@@ -93,9 +93,15 @@ ul, ol {
 /*Nav Search CSS*/
 
 #nav-search-wrapper {
+  display: inline-block;
   width: 490px;
   height: 100%;
-  margin-left: 70px;
+}
+
+#nav-search-wrapper form svg {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
 }
 
 #nav-search-wrapper form input {
@@ -103,5 +109,31 @@ ul, ol {
   width: 100%;
   border: none;
   outline: none;
-  /*background-color: blue;*/
+  font-size: 12px;
+  color: #aaa;
+  display: inline-block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-image: url('images/search-icon.png');
+  background-position: 20px;
+  background-repeat: no-repeat;
+  background-size: 18px;
+}
+
+#nav-search-wrapper form input::-webkit-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+#nav-search-wrapper form input::-moz-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+#nav-search-wrapper form input:-ms-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+#nav-search-wrapper form input:-moz-placeholder {
+  color: #aaa;
+  font-size: 14px;
 }
